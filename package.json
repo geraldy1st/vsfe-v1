@@ -1,0 +1,17 @@
+{
+  "name": "vsfe-beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://geraldy1st.github.io/vsfe-v1",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ../vsfe-beta"
+  },
+  "author": "geraldy",
+  "license": "ISC"
+}
