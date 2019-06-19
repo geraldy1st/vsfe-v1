@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "vsfe version beta",
   "main": "index.js",
-  "homepage": "https://geraldy1st.github.io/vsfe-v1",
+  "homepage": "https://geraldy1st.github.io/vsfe-v1/index.html",
   "dependencies": {
     "gh-pages": "^2.0.1"
   },
