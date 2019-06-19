@@ -1,7 +1,7 @@
 {
   "name": "vsfe-beta",
   "version": "1.0.0",
-  "description": "",
+  "description": "vsfe version beta",
   "main": "index.js",
   "homepage": "https://geraldy1st.github.io/vsfe-v1",
   "dependencies": {
