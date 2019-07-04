@@ -148,12 +148,15 @@ a {
   flex: 1;
   display: flex;
 }
+.game a {
+  display: flex;
+  align-items: baseline;
+}
 .game img {
   width: 100%;
-  justify-content: center;
   margin: auto;
 }
-.game img:hover {
+.game a:hover {
   transform: scale(1.1);
   transition: all ease-in 0.2s;
 }
@@ -400,25 +403,26 @@ footer .footer-bottom a {
   /* Games */
   .games {
     display: flex;
-    margin: 20px auto;
-    padding: 20px auto;
     background-color: rgba(211, 211, 211, 0.1);
     flex-direction: column;
   }
   .game {
     flex: 1;
+    justify-content: center;
   }
   .game a {
-    width: 100%;
     display: flex;
+    flex-basis: 90%;
+    border-radius: 5px;
   }
   .game a img {
     width: 50%;
     align-items: center;
   }
-  .game img:hover {
-    transform: scale(1.1);
-    transition: all ease-in 0.2s;
+  .game a:hover {
+    transform: scale(1);
+    transition: all 0s;
+    background-color: rgba(221, 221, 221, 0.5);
   }
   /* Actu */
   .section {
