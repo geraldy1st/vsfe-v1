@@ -137,6 +137,26 @@ a {
 #navbar .sociaux {
   display: none;
 }
+/* Games */
+.games {
+  display: flex;
+  margin: 20px auto;
+  padding: 20px auto;
+  background-color: rgba(211, 211, 211, 0.1);
+}
+.game {
+  flex: 1;
+  display: flex;
+}
+.game img {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+.game img:hover {
+  transform: scale(1.1);
+  transition: all ease-in 0.2s;
+}
 
 /* main-section */
 
@@ -376,6 +396,29 @@ footer .footer-bottom a {
     display: flex;
     padding: 10px;
     flex-direction: column;
+  }
+  /* Games */
+  .games {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px auto;
+    background-color: rgba(211, 211, 211, 0.1);
+    flex-direction: column;
+  }
+  .game {
+    flex: 1;
+  }
+  .game a {
+    width: 100%;
+    display: flex;
+  }
+  .game a img {
+    width: 50%;
+    align-items: center;
+  }
+  .game img:hover {
+    transform: scale(1.1);
+    transition: all ease-in 0.2s;
   }
   /* Actu */
   .section {
