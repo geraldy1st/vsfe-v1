@@ -1,2 +1,15 @@
-body {
+.page-game .logo-game {
+  width: 200px;
+}
+.page-game img {
+  width: 100%;
+}
+.source-game {
+  background-color: rgba(16, 48, 99, 0.5);
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+.source-game h3 {
+  background-color: var(--secondary-color);
 }
